@@ -1,7 +1,6 @@
 # -*- mode: python ; coding: utf-8 -*-
 import sys
 
-from PyInstaller.building.api import BUNDLE
 from PyInstaller.utils.hooks import collect_data_files, collect_submodules
 
 hiddenimports = collect_submodules("customtkinter")
